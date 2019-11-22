@@ -4,6 +4,7 @@
   
   Task 2:
   
-## Getting Started
+  
+## Dataset
 
-To begin the code, first download and locate the MSE ARQMath Dataset. 
+The dateset for this lab is currently available on [Google Drive](https://drive.google.com/drive/folders/1ZPKIWDnhMGRaPNVLi1reQxZWTfH2R4u3?usp=sharing)
