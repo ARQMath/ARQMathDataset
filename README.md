@@ -24,10 +24,7 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
   Each question on MSE can be associated with other questions; it can be related to another question or it can be its duplicate.
   In the post links file, each link has a unique id, the post id of the question, the post id of related question (relatedpostid), the link type [1:related, 3:duplicate].
 #### PostHistory
-  
- 
-
-  
- 
+  It is possible that several edits have been applied on a post. While in the post file, there is only the final version of the post, in this file, one can finds edits on a post. The data provided in this file, shows edit id, type of edit, post id, revision GUI id, creation date, user id and display name, comment, text and close reason id. 
   #### Posts
+  
   
