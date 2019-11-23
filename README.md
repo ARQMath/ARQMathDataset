@@ -11,11 +11,11 @@
 # Dataset
 In this lab we will be using data from [Math Stack Exchange](https://math.stackexchange.com/) (MSE)The dateset for this lab is currently available on [Google Drive](https://drive.google.com/drive/folders/1ZPKIWDnhMGRaPNVLi1reQxZWTfH2R4u3?usp=sharing). This data was provided by [Archive](https://archive.org/) and several preprocessing have been done on the initial data. They are 7 files in this dataset:
   #### Users
-  Users can post questions and answers and therefor each post is written by a user. Each users has a unique id along with other information such as display name, age, location, the date they created their profile and the reputations points earned based on their activities on math stack exchange such as receiving an "up" vote on an answer given.
+  Users can post questions and answers and therefor each post is written by a user. Each users has a unique id along with other information such as display name, age, location, the date they created their profile and the reputations points earned based on their activities on MSE such as receiving an "up" vote on an answer given.
   #### Badges
   Besides reputation for each user, they can have a list of badges they received. There are three class of badges 3:bronze, 2:silver and 1:gold. Each badges is linked to a user by user id.
   #### Votes
-  Members of math stack
+  Members of MSE, can give different votes to questions and answers. In the vote file, for each vote there is a unique id, related post id, vote type [1 to 13], vote date and the user id of the voter.
   #### PostHistory
   #### Comments
   #### PostLinks
