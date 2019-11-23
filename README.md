@@ -147,4 +147,5 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
      - UserId (only for VoteTypeId 5)
      - BountyAmount (only for VoteTypeId 9)
  
-  
+# Available tools
+To facilate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file.
