@@ -7,6 +7,8 @@
 
 [Sample Topics](#topics)
 
+[Getting Started](#started)
+
 <a name="arqmath"></a>
 # ARQMath Clef 2020
 [ARQMath](https://www.cs.rit.edu/~dprl/ARQMath/) lab at [CLEF 2020](https://clef2020.clef-initiative.eu/).  focuses on mathematical information retrieval. There will be two tasks for this lab:
@@ -160,7 +162,7 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
 	
 <a name="tools"></a>
 # Available tools
-To facilate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file.
+To facilitate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file.
 
 <a name="topics"></a>
 # Sample Topics
@@ -169,3 +171,18 @@ There are 3 sample topics (questions) provided for task 1. To extract the title 
 Relevance degree | Not relevant | Low | Medium | High
 --- | --- | --- | --- |--- |
 Score | 0 | 1 | 2 | 3
+
+
+<a name="started"></a>
+# Getting Started
+The ARQMath google drive, contains 4 directories. All the files have version and the readme file specifies the latest files that will be used for the task. The older versions are kept in Old versions directory.
+
+The collection directory contains all the data files that will be used for both task one and two. Each of the two task, has their own directory. 
+
+For task one, there are three sample topic provided for now in Task1 directory. The sample qrel and query files are created for these three topics. Also a sample retrieval file is provided which is in standard trec format and evaluation can be done with trec eval tools.
+
+For task two, the data will be available soon.
+
+Finally formula directory, provides all the formulas in the collection in four different files, three of them showing  different representation of formulas, namely latex string, symbol layout tree and operator tree. (Only one is available for now.) There are 5 columns in these files showing formula id, post id, thread id, type of post they appeared in which can be question, answer, comment or title and finally formula itself which is represented accordingly. The fourth file will be combination of these three files.
+
+Check the [ARQMath forum](https://groups.google.com/forum/#!forum/arqmath-lab) for any further information
