@@ -1,8 +1,8 @@
 # Table of Contents  
-[ARQMath Clef 2020](arqmath)  
-[Collection](collection)
-[Available Tools](tools)
-[Sample Topics](topics)
+[ARQMath Clef 2020](#arqmath)  
+[Collection](#collection)
+[Available Tools](#tools)
+[Sample Topics](#topics)
 
 <a name="arqmath"/>
 # ARQMath Clef 2020
