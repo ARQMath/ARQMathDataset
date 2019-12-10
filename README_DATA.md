@@ -164,4 +164,8 @@ To facilate the data loading, the lab organizer provided a python code to read a
 
 <a name="topics"></a>
 # Sample Topics
-There are 3 sample topics (questions) provided for task 1. To extract the title of question, you can use "h1" tag. The post is located in "postcell" div. The current qrel file is created just as an example. The criteria for selecting the candidate relevant documents for now is based on the duplicate and related post links that exists in the original math stack exchange dataset (from 2010 to 2019) and relevance is determined based on the community scores for each answer. 
+There are 3 sample topics (questions) provided for task 1. To extract the title of question, you can use "h1" tag. The post is located in "postcell" div. The current qrel file is created just as an example. The criteria for selecting the candidate relevant documents for now is based on the duplicate and related post links that exists in the original math stack exchange dataset (from 2010 to 2019) and relevance is determined based on the community scores for each answer. There are 4 different relevance scores as follows:
+
+Relevance degree | Not relevant | Low | Medium | High
+--- | --- | --- | --- |--- |
+Score | 0 | 1 | 2 | 3
