@@ -1,3 +1,10 @@
+##### Table of Contents  
+[ARQMath Clef 2020](#ARQMath)  
+[Collection](#Collection)
+[Available Tools](#Tools)
+[Sample Topics](#Topics)
+
+<a name="ARQMath"/>
 # ARQMath Clef 2020
 [ARQMath](https://www.cs.rit.edu/~dprl/ARQMath/) lab at [CLEF 2020](https://clef2020.clef-initiative.eu/).  focuses on mathematical information retrieval. There will be two tasks for this lab:
   ### Task 1 
@@ -7,7 +14,8 @@
   Given a formula as a query, participants should retrieve formulas related to the formula query.
   
  Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
-
+ 
+<a name="Collection"/>
 # Collection
 In this lab we will be using data from [Math Stack Exchange](https://math.stackexchange.com/) (MSE)The dateset for this lab is currently available on [Google Drive](https://drive.google.com/drive/folders/1ZPKIWDnhMGRaPNVLi1reQxZWTfH2R4u3?usp=sharing). This data was provided by [Archive](https://archive.org/) and several preprocessing have been done on the initial data. There are 7 files in this dataset:
   #### Users
@@ -146,9 +154,11 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
      - CreationDate
      - UserId (only for VoteTypeId 5)
      - BountyAmount (only for VoteTypeId 9)
- 
+	
+<a name="Tools"/>
 # Available tools
 To facilate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file.
 
-# Topics
+<a name="Topics"/>
+# Sample Topics
 There are 3 sample topics (questions) provided for task 1. To extract the title of question, you can use "h1" tag. The post is located in "postcell" div. The current qrel file is created just as an example. The criteria for selecting the candidate relevant documents for now is based on the duplicate and related post links that exists in the original math stack exchange dataset (from 2010 to 2019) and relevance is determined based on the community scores for each answer. 
