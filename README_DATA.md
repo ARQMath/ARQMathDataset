@@ -72,8 +72,8 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
        - LastActivityDate="2009-03-11T12:51:01.480"
        - CommunityOwnedDate="2009-03-11T12:51:01.480"
        - ClosedDate="2009-03-11T12:51:01.480"
-       - Title=
-       - Tags=
+       - Title
+       - Tags
        - AnswerCount
        - CommentCount
        - FavoriteCount
@@ -175,7 +175,7 @@ Score | 0 | 1 | 2 | 3
 
 <a name="started"></a>
 # Getting Started
-The ARQMath google drive, contains 4 directories. All the files have version and the readme file specifies the latest files that will be used for the task. The older versions are kept in Old versions directory.
+The ARQMath google drive, contains 4 directories. All the files have version and only the version that should be used for the task in kept in the directory and the older versions are kept in Old versions directory.
 
 The collection directory contains all the data files that will be used for both task one and two. Each of the two task, has their own directory. 
 
