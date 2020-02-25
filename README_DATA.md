@@ -19,7 +19,7 @@
   Given a formula as a query, participants should retrieve formulas related to the formula query.
   
  
- While available data for participants are from year 2010 to 2018. The topics for both tasks are selected from posts (questions) created in 2019. Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
+The data avaiable for participants covers posts from the year 2010 to 2018. The topics for both tasks are selected from posts (questions) created in 2019. Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
  
 <a name="collection"></a>
 # Collection
@@ -167,7 +167,7 @@ To facilitate the data loading, the lab organizer provided a python code to read
 
 <a name="topics"></a>
 # Sample Topics
-There are 3 sample topics (questions) provided for task 1. To extract the title of question, you can use "h1" tag. The post is located in "postcell" div. The current qrel file is created just as an example. The criteria for selecting the candidate relevant documents for now is based on the duplicate and related post links that exists in the original math stack exchange dataset (from 2010 to 2019) and relevance is determined based on the community scores for each answer. There are 4 different relevance scores as follows:
+There are 3 sample topics (questions) provided for task 1. To extract the title of question, you can use "h1" tag. The post is located in "postcell" div. (You can also use our provided tools (read the related documentation.)) The current qrel file is created just as an example. The criteria for selecting the candidate relevant documents for now is based on the duplicate and related post links that exists in the original math stack exchange dataset (from 2010 to 2019) and relevance is determined based on the community scores for each answer. There are 4 different relevance scores as follows:
 
 Relevance degree | Not relevant | Low | Medium | High
 --- | --- | --- | --- |--- |
