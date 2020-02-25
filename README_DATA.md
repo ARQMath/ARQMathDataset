@@ -19,7 +19,7 @@
   Given a formula as a query, participants should retrieve formulas related to the formula query.
   
  
-The data avaiable for participants covers posts from the year 2010 to 2018. The topics for both tasks are selected from posts (questions) created in 2019. Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
+The data avaiable for participants covers posts from the year 2010 to 2018. The topics for both tasks are selected from posts (questions) created in 2019, which is hidden from the participants. Providing an example, for task 1, the participant will be given a real-world math question (from 2019 questions) and they will set of relevant answers that were created for other questions in years 2010 to 2018. Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
  
 <a name="collection"></a>
 # Collection
@@ -178,12 +178,12 @@ Score | 0 | 1 | 2 | 3
 # Getting Started
 The ARQMath google drive, contains 4 directories. All the files have version and only the version that should be used for the task in kept in the directory and the older versions are kept in Old versions directory.
 
-The collection directory contains all the data files that will be used for both task one and two. Each of the two task, has their own directory. 
+The collection directory contains all the data files (2010-2018) that will be used for both tasks one and two. Each of the two tasks, has their own directory. Note that these directory will be used by participant to train their model, and also the retrieval results for both tasks are from these documents.
 
 For task one, there are three sample topic provided for now in Task1 directory. The sample qrel and query files are created for these three topics. Also a sample retrieval file is provided which is in standard trec format and evaluation can be done with trec eval tools.
 
 For task two, the data will be available soon.
 
-Finally formula directory, provides all the formulas in the collection in four different files, three of them showing  different representation of formulas, namely latex string, symbol layout tree and operator tree. (Only one is available for now.) There are 5 columns in these files showing formula id, post id, thread id, type of post they appeared in which can be question, answer, comment or title and finally formula itself which is represented accordingly. The fourth file will be combination of these three files.
+Finally formula directory, provides all the formulas in the collection in 2 files. The formula_latex.tsv file is showing the Latex representation of formulas.  There are 5 columns in these files showing formula id, post id, thread id, type of post they appeared in which can be question, answer, comment or title and finally formula itself which is represented accordingly. The MathMl.zip file contains two tsv files in the same format of latex file which show opt(operator tree) and slt (symbol layout tree) representation of formulas.
 
-Check the [ARQMath forum](https://groups.google.com/forum/#!forum/arqmath-lab) for any further information
+Check the [ARQMath forum](https://groups.google.com/forum/#!forum/arqmath-lab) for any further information.
