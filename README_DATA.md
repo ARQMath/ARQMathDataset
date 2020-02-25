@@ -18,7 +18,8 @@
   ### Task 2
   Given a formula as a query, participants should retrieve formulas related to the formula query.
   
- Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
+ 
+ While available data for participants are from year 2010 to 2018. The topics for both tasks are selected from posts (questions) created in 2019. Futher information please check the ARQMath [webpage](https://www.cs.rit.edu/~dprl/ARQMath/). You may also consider joining the discussion forum [here](https://groups.google.com/forum/#!forum/arqmath-lab).
  
 <a name="collection"></a>
 # Collection
