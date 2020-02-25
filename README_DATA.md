@@ -163,7 +163,7 @@ In this lab we will be using data from [Math Stack Exchange](https://math.stacke
 	
 <a name="tools"></a>
 # Available tools
-To facilitate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file.
+To facilitate the data loading, the lab organizer provided a python code to read all the data and iterate over it. The code is available on [github](https://github.com/ARQMath/ARQMath). Also with this code, participants can view each thread (question along with answers and other related information) as html file. The entities with their main attributes are shown in this ![Class Diagram](https://github.com/ARQMath/ARQMathDataset/blob/master/Clef_Class%20Diagram.jpg).
 
 <a name="topics"></a>
 # Sample Topics
