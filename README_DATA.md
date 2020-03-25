@@ -37,8 +37,6 @@ In this lab, we will be using data from [Math Stack Exchange](https://math.stack
   #### PostLinks
   Each question on MSE can be associated with other questions; it can be related to another question or it can be its duplicate.
   In the post links file, each link has a unique id, the post id of the question, the post id of the related question (relatedpostid), the link type [1:related, 3:duplicate].
-#### PostHistory
-  It is possible that several edits have been applied to a post. While in the post file, there is only the final version of the post, in this file, one can finds edits on a post. The data provided in this file, shows edit id, type of edit, post id, revision GUI id, creation date, user id and display name, comment, text and close reason id. 
   #### Posts
   This is the main file for the task, where there are both questions and answers. Each post has a unique id, post type [1: question, 2:answer], the creation date, body, score and view count. For each answer, there is parent id which shows the question id for which the answer was provided. Each question has a title, set of tags and answer count.
   
@@ -78,46 +76,6 @@ In this lab, we will be using data from [Math Stack Exchange](https://math.stack
        - AnswerCount
        - CommentCount
        - FavoriteCount
-   - **posthistory**.xml
-	   - Id
-	   - PostHistoryTypeId
-			- 1: Initial Title - The first title a question is asked with.
-			- 2: Initial Body - The first raw body text a post is submitted with.
-			- 3: Initial Tags - The first tags a question is asked with.
-			- 4: Edit Title - A question's title has been changed.
-			- 5: Edit Body - A post's body has been changed, the raw text is stored here as markdown.
-			- 6: Edit Tags - A question's tags have been changed.
-			- 7: Rollback Title - A question's title has reverted to a previous version.
-			- 8: Rollback Body - A post's body has reverted to a previous version - the raw text is stored here.
-			- 9: Rollback Tags - A question's tags have reverted to a previous version.
-			- 10: Post Closed - A post was voted to be closed.
-			- 11: Post Reopened - A post was voted to be reopened.
-			- 12: Post Deleted - A post was voted to be removed.
-			- 13: Post Undeleted - A post was voted to be restored.
-			- 14: Post Locked - A post was locked by a moderator.
-			- 15: Post Unlocked - A post was unlocked by a moderator.
-			- 16: Community Owned - A post has become community owned.
-			- 17: Post Migrated - A post was migrated.
-			- 18: Question Merged - A question has had another, deleted question merged into itself.
-			- 19: Question Protected - A question was protected by a moderator
-			- 20: Question Unprotected - A question was unprotected by a moderator
-			- 21: Post Disassociated - An admin removes the OwnerUserId from a post.
-			- 22: Question Unmerged - A previously merged question has had its answers and votes restored.
-		- PostId
-		- RevisionGUID: At times more than one type of history record can be recorded by a single action.  All of these will be grouped using the same RevisionGUID
-		- CreationDate: "2009-03-05T22:28:34.823"
-		- UserId
-		- UserDisplayName: populated if a user has been removed and no longer referenced by user Id
-		- Comment: This field will contain the comment made by the user who edited a post
-		- Text: A raw version of the new value for a given revision
-			- If PostHistoryTypeId = 10, 11, 12, 13, 14, or 15  this column will contain a JSON encoded string with all users who have voted for the PostHistoryTypeId
-			- If PostHistoryTypeId = 17 this column will contain migration details of either "from <url>" or "to <url>"
-		- CloseReasonId
-			- 1: Exact Duplicate - This question covers exactly the same ground as earlier questions on this topic; its answers may be merged with another identical question.
-			- 2: off-topic
-			- 3: subjective
-			- 4: not a real question
-			- 7: too localized
    - **postlinks**.xml
      - Id
      - CreationDate
